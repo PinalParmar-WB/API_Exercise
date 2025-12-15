@@ -1,9 +1,12 @@
 ﻿using API_Exercise.Models;
 using API_Exercise.ServiceContract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace API_Exercise.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PartyController : ControllerBase
@@ -18,6 +21,8 @@ namespace API_Exercise.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            Console.Write(userId);
             var parties = await _partyService.GetAllAsync();
             return Ok(parties);
         }

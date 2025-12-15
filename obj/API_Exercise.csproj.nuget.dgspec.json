@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Weybee_Course\\API_Exercise\\API_Exercise.csproj": {}
+    "D:\\DotNet_Course\\Exercise_3\\API_Exercise\\API_Exercise.csproj": {}
   },
   "projects": {
-    "F:\\Weybee_Course\\API_Exercise\\API_Exercise.csproj": {
+    "D:\\DotNet_Course\\Exercise_3\\API_Exercise\\API_Exercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Weybee_Course\\API_Exercise\\API_Exercise.csproj",
+        "projectUniqueName": "D:\\DotNet_Course\\Exercise_3\\API_Exercise\\API_Exercise.csproj",
         "projectName": "API_Exercise",
-        "projectPath": "F:\\Weybee_Course\\API_Exercise\\API_Exercise.csproj",
-        "packagesPath": "C:\\Users\\parma\\.nuget\\packages\\",
-        "outputPath": "F:\\Weybee_Course\\API_Exercise\\obj\\",
+        "projectPath": "D:\\DotNet_Course\\Exercise_3\\API_Exercise\\API_Exercise.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet_Course\\Exercise_3\\API_Exercise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\parma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -102,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

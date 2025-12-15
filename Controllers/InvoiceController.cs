@@ -1,10 +1,12 @@
 ﻿using API_Exercise.DTO;
 using API_Exercise.ServiceContract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Exercise.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class InvoiceController : ControllerBase
