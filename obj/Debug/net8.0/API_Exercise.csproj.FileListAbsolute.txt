@@ -514,3 +514,4 @@ D:\DotNet_Course\Exercise_3\API_Exercise\obj\Debug\net8.0\API_Exercise.pdb
 D:\DotNet_Course\Exercise_3\API_Exercise\obj\Debug\net8.0\API_Exercise.genruntimeconfig.cache
 D:\DotNet_Course\Exercise_3\API_Exercise\obj\Debug\net8.0\ref\API_Exercise.dll
 D:\DotNet_Course\Exercise_3\API_Exercise\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DotNet_Course\Exercise_3\API_Exercise\bin\Debug\net8.0\appsettings.Production.json
