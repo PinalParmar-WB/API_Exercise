@@ -35,6 +35,8 @@ namespace API_Exercise.Services
             {
                 InvoiceId = createdInvoice.InvoiceId,
                 InvoiceDate = createdInvoice.InvoiceDate,
+                ProductId = createdInvoice.ProductId,
+                PartyId = createdInvoice.PartyId,
                 ProductName = createdInvoice.Product.ProductName,
                 ProductRate = Convert.ToDouble(createdInvoice.Product.ProductRate),
                 PartyName = createdInvoice.Party.PartyName,
@@ -65,6 +67,8 @@ namespace API_Exercise.Services
             {
                 InvoiceId = s.InvoiceId,
                 InvoiceDate = s.InvoiceDate,
+                ProductId = s.ProductId,
+                PartyId = s.PartyId,
                 ProductName = s.Product.ProductName,
                 PartyName = s.Party.PartyName,
                 ProductRate = Convert.ToDouble(s.Product.ProductRate),
@@ -89,6 +93,8 @@ namespace API_Exercise.Services
             {
                 InvoiceId = s.InvoiceId,
                 InvoiceDate = s.InvoiceDate,
+                ProductId = s.ProductId,
+                PartyId = s.PartyId,
                 ProductName = s.Product.ProductName,
                 PartyName = s.Party.PartyName,
                 ProductRate = Convert.ToDouble(s.Product.ProductRate),
@@ -113,6 +119,8 @@ namespace API_Exercise.Services
             {
                 InvoiceId = invoice.InvoiceId,
                 InvoiceDate = invoice.InvoiceDate,
+                PartyId= invoice.PartyId,
+                ProductId = invoice.ProductId,
                 ProductName = invoice.Product.ProductName,
                 ProductRate = Convert.ToDouble(invoice.Product.ProductRate),
                 PartyName = invoice.Party.PartyName,

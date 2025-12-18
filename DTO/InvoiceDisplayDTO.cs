@@ -8,6 +8,9 @@ namespace API_Exercise.DTO
 
         public DateTime InvoiceDate { get; set; }
 
+        public int ProductId { get; set; }
+        public int PartyId { get; set; }
+
         public string PartyName { get; set; } = string.Empty;
 
         public string ProductName { get; set; } = string.Empty;
